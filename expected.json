@@ -1,0 +1,186 @@
+[
+ {
+  "fn": "loadTruth",
+  "args": [
+   4,
+   120
+  ],
+  "out": "4 people make 24 pieces a day; a 120-piece washer fills in 5.0 days honestly."
+ },
+ {
+  "fn": "loadTruth",
+  "args": [
+   1,
+   120
+  ],
+  "out": "1 person makes 6 pieces a day; a 120-piece washer fills in 20.0 days honestly."
+ },
+ {
+  "fn": "loadTruth",
+  "args": [
+   2,
+   100
+  ],
+  "out": "2 people make 12 pieces a day; a 100-piece washer fills in 8.3 days honestly."
+ },
+ {
+  "fn": "loadTruth",
+  "args": [
+   6,
+   140
+  ],
+  "out": "6 people make 36 pieces a day; a 140-piece washer fills in 3.9 days honestly."
+ },
+ {
+  "fn": "loadTruth",
+  "args": [
+   3,
+   120
+  ],
+  "out": "3 people make 18 pieces a day; a 120-piece washer fills in 6.7 days honestly."
+ },
+ {
+  "fn": "loadTruth",
+  "args": [
+   20,
+   120
+  ],
+  "out": "20 people make 120 pieces a day; a 120-piece washer fills in 1.0 day honestly."
+ },
+ {
+  "fn": "loadTruth",
+  "args": [
+   0,
+   120
+  ],
+  "err": "the people must be above zero"
+ },
+ {
+  "fn": "loadTruth",
+  "args": [
+   4,
+   0
+  ],
+  "err": "the capacity must be above zero"
+ },
+ {
+  "fn": "halfTruth",
+  "args": [
+   3,
+   4
+  ],
+  "out": "3 half-loads a week at 4 gallons each run 624.0 extra gallons a year honestly."
+ },
+ {
+  "fn": "halfTruth",
+  "args": [
+   1,
+   4
+  ],
+  "out": "1 half-load a week at 4 gallons each runs 208.0 extra gallons a year honestly."
+ },
+ {
+  "fn": "halfTruth",
+  "args": [
+   7,
+   3.5
+  ],
+  "out": "7 half-loads a week at 3.5 gallons each run 1274.0 extra gallons a year honestly."
+ },
+ {
+  "fn": "halfTruth",
+  "args": [
+   2,
+   5
+  ],
+  "out": "2 half-loads a week at 5 gallons each run 520.0 extra gallons a year honestly."
+ },
+ {
+  "fn": "halfTruth",
+  "args": [
+   0,
+   4
+  ],
+  "out": "0 half-loads a week wastes nothing honestly."
+ },
+ {
+  "fn": "halfTruth",
+  "args": [
+   0.5,
+   4
+  ],
+  "out": "0.5 half-loads a week at 4 gallons each run 104.0 extra gallons a year honestly."
+ },
+ {
+  "fn": "halfTruth",
+  "args": [
+   -1,
+   4
+  ],
+  "err": "the half-loads must be zero or more"
+ },
+ {
+  "fn": "halfTruth",
+  "args": [
+   3,
+   0
+  ],
+  "err": "the gallons per load must be above zero"
+ },
+ {
+  "fn": "podTruth",
+  "args": [
+   5,
+   0.25
+  ],
+  "out": "5 loads a week is 260.0 pods a year - at $0.25 each, $65.00 honestly."
+ },
+ {
+  "fn": "podTruth",
+  "args": [
+   7,
+   0.3
+  ],
+  "out": "7 loads a week is 364.0 pods a year - at $0.30 each, $109.20 honestly."
+ },
+ {
+  "fn": "podTruth",
+  "args": [
+   3,
+   0.2
+  ],
+  "out": "3 loads a week is 156.0 pods a year - at $0.20 each, $31.20 honestly."
+ },
+ {
+  "fn": "podTruth",
+  "args": [
+   1,
+   0.25
+  ],
+  "out": "1 load a week is 52.0 pods a year - at $0.25 each, $13.00 honestly."
+ },
+ {
+  "fn": "podTruth",
+  "args": [
+   4,
+   0.35
+  ],
+  "out": "4 loads a week is 208.0 pods a year - at $0.35 each, $72.80 honestly."
+ },
+ {
+  "fn": "podTruth",
+  "args": [
+   0,
+   0.25
+  ],
+  "err": "the loads must be above zero"
+ },
+ {
+  "fn": "podTruth",
+  "args": [
+   5,
+   0
+  ],
+  "err": "the pod cost must be above zero"
+ }
+]
